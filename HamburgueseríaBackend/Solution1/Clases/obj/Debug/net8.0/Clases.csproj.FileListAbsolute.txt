@@ -1,0 +1,12 @@
+C:\Users\santi\OneDrive\Escritorio\Instituto Cervantes\2do año\Programación Web II\HamburgueseríaBackend\Solution1\Clases\bin\Debug\net8.0\Clases.deps.json
+C:\Users\santi\OneDrive\Escritorio\Instituto Cervantes\2do año\Programación Web II\HamburgueseríaBackend\Solution1\Clases\bin\Debug\net8.0\Clases.dll
+C:\Users\santi\OneDrive\Escritorio\Instituto Cervantes\2do año\Programación Web II\HamburgueseríaBackend\Solution1\Clases\bin\Debug\net8.0\Clases.pdb
+C:\Users\santi\OneDrive\Escritorio\Instituto Cervantes\2do año\Programación Web II\HamburgueseríaBackend\Solution1\Clases\obj\Debug\net8.0\Clases.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\santi\OneDrive\Escritorio\Instituto Cervantes\2do año\Programación Web II\HamburgueseríaBackend\Solution1\Clases\obj\Debug\net8.0\Clases.AssemblyInfoInputs.cache
+C:\Users\santi\OneDrive\Escritorio\Instituto Cervantes\2do año\Programación Web II\HamburgueseríaBackend\Solution1\Clases\obj\Debug\net8.0\Clases.AssemblyInfo.cs
+C:\Users\santi\OneDrive\Escritorio\Instituto Cervantes\2do año\Programación Web II\HamburgueseríaBackend\Solution1\Clases\obj\Debug\net8.0\Clases.csproj.CoreCompileInputs.cache
+C:\Users\santi\OneDrive\Escritorio\Instituto Cervantes\2do año\Programación Web II\HamburgueseríaBackend\Solution1\Clases\obj\Debug\net8.0\Clases.sourcelink.json
+C:\Users\santi\OneDrive\Escritorio\Instituto Cervantes\2do año\Programación Web II\HamburgueseríaBackend\Solution1\Clases\obj\Debug\net8.0\Clases.dll
+C:\Users\santi\OneDrive\Escritorio\Instituto Cervantes\2do año\Programación Web II\HamburgueseríaBackend\Solution1\Clases\obj\Debug\net8.0\refint\Clases.dll
+C:\Users\santi\OneDrive\Escritorio\Instituto Cervantes\2do año\Programación Web II\HamburgueseríaBackend\Solution1\Clases\obj\Debug\net8.0\Clases.pdb
+C:\Users\santi\OneDrive\Escritorio\Instituto Cervantes\2do año\Programación Web II\HamburgueseríaBackend\Solution1\Clases\obj\Debug\net8.0\ref\Clases.dll
