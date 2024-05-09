@@ -9,7 +9,7 @@ import TableHead from "@mui/material/TableHead";
 import TableRow from "@mui/material/TableRow";
 import Paper from "@mui/material/Paper";
 import { createTheme, ThemeProvider } from '@mui/material/styles';
-
+import { tableStyles } from "./style.clientes"; 
 
 const theme = createTheme({
   palette: {
@@ -41,25 +41,25 @@ const ClientesPage = () => {
 
   return (
     <ThemeProvider theme={theme}>
-      <TableContainer component={Paper}>
+      <TableContainer component={Paper} style={tableStyles.container}>
         Listado de Clientes
-        <Table aria-label="simple table">
+        <Table aria-label="simple table" style={tableStyles.table}>
           <TableHead>
             <TableRow>
-              <TableCell align="right" >ID</TableCell>
-              <TableCell align="right" >Nombre</TableCell>
-              <TableCell align="right" >Apellido</TableCell>
+              <TableCell align="right" style={tableStyles.headerCell}>ID</TableCell>
+              <TableCell align="right" style={tableStyles.headerCell}>Nombre</TableCell>
+              <TableCell align="right" style={tableStyles.headerCell}>Apellido</TableCell>
             </TableRow>
           </TableHead>
-          <TableBody>
-            {data.map((row) => (
-              <TableRow key={row.idCliente}>
-                <TableCell align="right">{row.idCliente}</TableCell>
-                <TableCell align="right">{row.nombre}</TableCell>
-                <TableCell align="right">{row.apellido}</TableCell>
-              </TableRow>
-            ))}
-          </TableBody>
+           <TableBody>
+           {data.map((row, index) => (
+             <TableRow key={row.idCliente} style={index % 2 === 0 ? {} : tableStyles.oddRow}>
+               <TableCell align="right">{row.idCliente}</TableCell>
+               <TableCell align="right">{row.nombre}</TableCell>
+               <TableCell align="right">{row.apellido}</TableCell>
+             </TableRow>
+           ))}
+         </TableBody>
         </Table>
       </TableContainer>
     </ThemeProvider>

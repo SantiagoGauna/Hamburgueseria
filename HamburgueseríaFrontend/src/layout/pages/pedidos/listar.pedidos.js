@@ -7,6 +7,19 @@ import TableContainer from "@mui/material/TableContainer";
 import TableHead from "@mui/material/TableHead";
 import TableRow from "@mui/material/TableRow";
 import Paper from "@mui/material/Paper";
+import { createTheme, ThemeProvider } from '@mui/material/styles';
+import { tableStyles } from "./style.pedidos";
+
+const theme = createTheme ({
+  palette:{
+    primary: {
+      main: '#1976d2',
+    },
+    secondary: {
+      main: '#dc004e',
+    },
+  },
+});
 
 const PedidosPage = () => {
   const [data, setData] = useState([]);
@@ -32,21 +45,22 @@ const PedidosPage = () => {
   }, []);
 
   return (
-    <TableContainer component={Paper}>
+    <ThemeProvider theme={theme}>
+    <TableContainer component={Paper} style={tableStyles.container}>
       Listado de Pedidos
-      <Table sx={{ minWidth: 650 }} aria-label="simple table">
+      <Table aria-label="simple table" style={tableStyles.table}>
         <TableHead>
           <TableRow>
-            <TableCell align="right">Nombre</TableCell>
-            <TableCell align="right">Hamburguesa</TableCell>
-            <TableCell align="right">Cantidad</TableCell>
-            <TableCell align="right">Precio</TableCell>
-            <TableCell align="right">Fecha</TableCell>
+            <TableCell align="right" style={tableStyles.headerCell}>Nombre</TableCell>
+            <TableCell align="right" style={tableStyles.headerCell}>Hamburguesa</TableCell>
+            <TableCell align="right" style={tableStyles.headerCell}>Cantidad</TableCell>
+            <TableCell align="right" style={tableStyles.headerCell}>Precio</TableCell>
+            <TableCell align="right" style={tableStyles.headerCell}>Fecha</TableCell>
           </TableRow>
         </TableHead>
         <TableBody>
-          {data.map((row) => (
-            <TableRow key={row.idPedido} sx={{ "&:last-child td, &:last-child th": { border: 0 } }}>
+          {data.map((row, index) => (
+            <TableRow key={row.idPedido} style={index % 2 === 0 ? {} : tableStyles.oddRow}>
               <TableCell align="right">{row.cliente.nombre} {row.cliente.apellido}</TableCell>
               <TableCell align="right">{row.hamburguesa.nombreHamburguesa}</TableCell>
               <TableCell align="right">{row.cantidad}</TableCell>
@@ -59,6 +73,7 @@ const PedidosPage = () => {
         </TableBody>
       </Table>
     </TableContainer>
+    </ThemeProvider>
   );
 };
 

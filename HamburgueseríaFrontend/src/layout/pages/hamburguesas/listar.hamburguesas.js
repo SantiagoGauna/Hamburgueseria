@@ -7,6 +7,21 @@ import TableContainer from "@mui/material/TableContainer";
 import TableHead from "@mui/material/TableHead";
 import TableRow from "@mui/material/TableRow";
 import Paper from "@mui/material/Paper";
+import { createTheme, ThemeProvider } from '@mui/material/styles';
+import { tableStyles } from "./style.hamburguesas";
+
+
+const theme = createTheme ({
+  palette: {
+    primary: {
+      main: '#1976d2',
+    },
+    secondary: {
+      main: '#dc004e',
+    },
+  },
+});
+
 
 const HamburguesasPage = () => {
   const [data, setData] = useState([]);
@@ -26,19 +41,20 @@ const HamburguesasPage = () => {
   }, []);
 
   return (
-    <TableContainer component={Paper}>
+    <ThemeProvider theme={theme}>
+    <TableContainer component={Paper} style={tableStyles.container}>
       Listado de Hamburguesas
-      <Table aria-label="simple table">
+      <Table aria-label="simple table" style={tableStyles.table}>
         <TableHead>
           <TableRow>
-            <TableCell align="right">Nombre</TableCell>
-            <TableCell align="right">Precio</TableCell>
-            <TableCell align="right">Descripción</TableCell>
+            <TableCell align="right" style={tableStyles.headerCell}>Nombre</TableCell>
+            <TableCell align="right" style={tableStyles.headerCell}>Precio</TableCell>
+            <TableCell align="right" style={tableStyles.headerCell}>Descripción</TableCell>
           </TableRow>
         </TableHead>
         <TableBody>
-          {data.map((row) => (
-            <TableRow key={row.idHamburguesa}>
+          {data.map((row, index) => (
+            <TableRow key={row.idHamburguesa} style={index % 2 === 0 ? {} : tableStyles.oddRow}>
               <TableCell align="right">{row.nombreHamburguesa}</TableCell>
               <TableCell align="right">${row.precio}</TableCell>
               <TableCell align="right">{row.descripcion}</TableCell>
@@ -48,6 +64,7 @@ const HamburguesasPage = () => {
         </TableBody>
       </Table>
     </TableContainer>
+    </ThemeProvider>
   );
 };
 
