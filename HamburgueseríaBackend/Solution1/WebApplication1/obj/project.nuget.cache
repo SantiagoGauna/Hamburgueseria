@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Bcw9C6vhKBew4DC1etqk+D/gRk9KntQ0bGYhPzSJnYQCPf35uxfepKlkX/M8Iv2X7NGh2V7dHPUV7dPvN2PWVA==",
+  "dgSpecHash": "3iAME9PlGCTOJMALOXTLaE6FFys9p56TWocOt+0JbKM8VJYuRXHWdQdeOdvhD9/Vg0Cm0bNp1R4O/zlqo0mbag==",
   "success": true,
-  "projectFilePath": "C:\\Users\\santi\\OneDrive\\Escritorio\\Instituto Cervantes\\2do año\\Programación Web II\\HamburgueseríaBackend\\Solution1\\WebApplication1\\WebApplication1.csproj",
+  "projectFilePath": "C:\\Users\\santi\\OneDrive\\Escritorio\\Hamburgueseria\\HamburgueseríaBackend\\Solution1\\WebApplication1\\WebApplication1.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\santi\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\santi\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

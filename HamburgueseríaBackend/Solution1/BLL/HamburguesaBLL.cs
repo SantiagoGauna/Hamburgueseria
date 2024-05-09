@@ -45,9 +45,9 @@ namespace BLL
                 throw new InvalidOperationException("Hamburguesa no encontrada.");
             }
 
-            existingHamburguesa.nombreHamburguesa = hamburguesa.nombreHamburguesa;
-            existingHamburguesa.precio = hamburguesa.precio;
-            existingHamburguesa.descripcion = hamburguesa.descripcion;
+            existingHamburguesa.NombreHamburguesa = hamburguesa.NombreHamburguesa;
+            existingHamburguesa.Precio = hamburguesa.Precio;
+            existingHamburguesa.Descripcion = hamburguesa.Descripcion;
 
             _Hamburgueseria.SaveChanges();
         }

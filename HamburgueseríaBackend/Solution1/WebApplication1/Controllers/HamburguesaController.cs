@@ -58,9 +58,9 @@ namespace WebApplication1.Controllers
                 }
 
                 // Actualizar los campos
-                existingHamburguesa.nombreHamburguesa = hamburguesa.nombreHamburguesa;
-                existingHamburguesa.descripcion = hamburguesa.descripcion;
-                existingHamburguesa.precio = hamburguesa.precio;
+                existingHamburguesa.NombreHamburguesa = hamburguesa.NombreHamburguesa;
+                existingHamburguesa.Descripcion = hamburguesa.Descripcion;
+                existingHamburguesa.Precio = hamburguesa.Precio;
 
                 // Llamar al método de la BLL para actualizar la hamburguesa
                 _hamburguesaBLL.ActualizarHamburguesa(existingHamburguesa);

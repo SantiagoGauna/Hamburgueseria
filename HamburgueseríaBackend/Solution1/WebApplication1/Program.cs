@@ -16,6 +16,7 @@ builder.Services.AddDbContext<Hamburgueseria>(options =>
 builder.Services.AddScoped<ClienteBLL>();
 builder.Services.AddScoped<HamburguesaBLL>();
 builder.Services.AddScoped<PedidoBLL>();
+builder.Services.AddScoped<IngredienteBLL>();
 
 // Agregar Swagger
 builder.Services.AddEndpointsApiExplorer();

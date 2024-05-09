@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "PP7JoJl8DYTQiZDPieypj39IjHVoRa+dE9grRQH2IFctE8z/MDTG/awGDmtRgVMh2cC3A0w19QqDEm7pqTR5Tg==",
+  "dgSpecHash": "i0UaPIYdeVvHKEmo6hD5do0Ycig7ZiCEVaqtAjJxOPt1tZODOq3fg6TFgp53X/Hx7RqDpNbwks6LHWNsTmEFhg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\santi\\OneDrive\\Escritorio\\Instituto Cervantes\\2do año\\Programación Web II\\HamburgueseríaBackend\\Solution1\\DAO\\DAO.csproj",
+  "projectFilePath": "C:\\Users\\santi\\OneDrive\\Escritorio\\Hamburgueseria\\HamburgueseríaBackend\\Solution1\\DAO\\DAO.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\santi\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\santi\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

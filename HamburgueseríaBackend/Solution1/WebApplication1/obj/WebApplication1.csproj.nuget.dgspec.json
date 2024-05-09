@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\santi\\OneDrive\\Escritorio\\Instituto Cervantes\\2do año\\Programación Web II\\HamburgueseríaBackend\\Solution1\\WebApplication1\\WebApplication1.csproj": {}
+    "C:\\Users\\santi\\OneDrive\\Escritorio\\Hamburgueseria\\HamburgueseríaBackend\\Solution1\\WebApplication1\\WebApplication1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\santi\\OneDrive\\Escritorio\\Instituto Cervantes\\2do año\\Programación Web II\\HamburgueseríaBackend\\Solution1\\BLL\\BLL.csproj": {
+    "C:\\Users\\santi\\OneDrive\\Escritorio\\Hamburgueseria\\HamburgueseríaBackend\\Solution1\\BLL\\BLL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\santi\\OneDrive\\Escritorio\\Instituto Cervantes\\2do año\\Programación Web II\\HamburgueseríaBackend\\Solution1\\BLL\\BLL.csproj",
+        "projectUniqueName": "C:\\Users\\santi\\OneDrive\\Escritorio\\Hamburgueseria\\HamburgueseríaBackend\\Solution1\\BLL\\BLL.csproj",
         "projectName": "BLL",
-        "projectPath": "C:\\Users\\santi\\OneDrive\\Escritorio\\Instituto Cervantes\\2do año\\Programación Web II\\HamburgueseríaBackend\\Solution1\\BLL\\BLL.csproj",
+        "projectPath": "C:\\Users\\santi\\OneDrive\\Escritorio\\Hamburgueseria\\HamburgueseríaBackend\\Solution1\\BLL\\BLL.csproj",
         "packagesPath": "C:\\Users\\santi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\santi\\OneDrive\\Escritorio\\Instituto Cervantes\\2do año\\Programación Web II\\HamburgueseríaBackend\\Solution1\\BLL\\obj\\",
+        "outputPath": "C:\\Users\\santi\\OneDrive\\Escritorio\\Hamburgueseria\\HamburgueseríaBackend\\Solution1\\BLL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\santi\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,11 +28,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\santi\\OneDrive\\Escritorio\\Instituto Cervantes\\2do año\\Programación Web II\\HamburgueseríaBackend\\Solution1\\Clases\\Clases.csproj": {
-                "projectPath": "C:\\Users\\santi\\OneDrive\\Escritorio\\Instituto Cervantes\\2do año\\Programación Web II\\HamburgueseríaBackend\\Solution1\\Clases\\Clases.csproj"
+              "C:\\Users\\santi\\OneDrive\\Escritorio\\Hamburgueseria\\HamburgueseríaBackend\\Solution1\\Clases\\Clases.csproj": {
+                "projectPath": "C:\\Users\\santi\\OneDrive\\Escritorio\\Hamburgueseria\\HamburgueseríaBackend\\Solution1\\Clases\\Clases.csproj"
               },
-              "C:\\Users\\santi\\OneDrive\\Escritorio\\Instituto Cervantes\\2do año\\Programación Web II\\HamburgueseríaBackend\\Solution1\\DAO\\DAO.csproj": {
-                "projectPath": "C:\\Users\\santi\\OneDrive\\Escritorio\\Instituto Cervantes\\2do año\\Programación Web II\\HamburgueseríaBackend\\Solution1\\DAO\\DAO.csproj"
+              "C:\\Users\\santi\\OneDrive\\Escritorio\\Hamburgueseria\\HamburgueseríaBackend\\Solution1\\DAO\\DAO.csproj": {
+                "projectPath": "C:\\Users\\santi\\OneDrive\\Escritorio\\Hamburgueseria\\HamburgueseríaBackend\\Solution1\\DAO\\DAO.csproj"
               }
             }
           }
@@ -71,14 +71,14 @@
         }
       }
     },
-    "C:\\Users\\santi\\OneDrive\\Escritorio\\Instituto Cervantes\\2do año\\Programación Web II\\HamburgueseríaBackend\\Solution1\\Clases\\Clases.csproj": {
+    "C:\\Users\\santi\\OneDrive\\Escritorio\\Hamburgueseria\\HamburgueseríaBackend\\Solution1\\Clases\\Clases.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\santi\\OneDrive\\Escritorio\\Instituto Cervantes\\2do año\\Programación Web II\\HamburgueseríaBackend\\Solution1\\Clases\\Clases.csproj",
+        "projectUniqueName": "C:\\Users\\santi\\OneDrive\\Escritorio\\Hamburgueseria\\HamburgueseríaBackend\\Solution1\\Clases\\Clases.csproj",
         "projectName": "Clases",
-        "projectPath": "C:\\Users\\santi\\OneDrive\\Escritorio\\Instituto Cervantes\\2do año\\Programación Web II\\HamburgueseríaBackend\\Solution1\\Clases\\Clases.csproj",
+        "projectPath": "C:\\Users\\santi\\OneDrive\\Escritorio\\Hamburgueseria\\HamburgueseríaBackend\\Solution1\\Clases\\Clases.csproj",
         "packagesPath": "C:\\Users\\santi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\santi\\OneDrive\\Escritorio\\Instituto Cervantes\\2do año\\Programación Web II\\HamburgueseríaBackend\\Solution1\\Clases\\obj\\",
+        "outputPath": "C:\\Users\\santi\\OneDrive\\Escritorio\\Hamburgueseria\\HamburgueseríaBackend\\Solution1\\Clases\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\santi\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -131,14 +131,14 @@
         }
       }
     },
-    "C:\\Users\\santi\\OneDrive\\Escritorio\\Instituto Cervantes\\2do año\\Programación Web II\\HamburgueseríaBackend\\Solution1\\DAO\\DAO.csproj": {
+    "C:\\Users\\santi\\OneDrive\\Escritorio\\Hamburgueseria\\HamburgueseríaBackend\\Solution1\\DAO\\DAO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\santi\\OneDrive\\Escritorio\\Instituto Cervantes\\2do año\\Programación Web II\\HamburgueseríaBackend\\Solution1\\DAO\\DAO.csproj",
+        "projectUniqueName": "C:\\Users\\santi\\OneDrive\\Escritorio\\Hamburgueseria\\HamburgueseríaBackend\\Solution1\\DAO\\DAO.csproj",
         "projectName": "DAO",
-        "projectPath": "C:\\Users\\santi\\OneDrive\\Escritorio\\Instituto Cervantes\\2do año\\Programación Web II\\HamburgueseríaBackend\\Solution1\\DAO\\DAO.csproj",
+        "projectPath": "C:\\Users\\santi\\OneDrive\\Escritorio\\Hamburgueseria\\HamburgueseríaBackend\\Solution1\\DAO\\DAO.csproj",
         "packagesPath": "C:\\Users\\santi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\santi\\OneDrive\\Escritorio\\Instituto Cervantes\\2do año\\Programación Web II\\HamburgueseríaBackend\\Solution1\\DAO\\obj\\",
+        "outputPath": "C:\\Users\\santi\\OneDrive\\Escritorio\\Hamburgueseria\\HamburgueseríaBackend\\Solution1\\DAO\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\santi\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -155,8 +155,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\santi\\OneDrive\\Escritorio\\Instituto Cervantes\\2do año\\Programación Web II\\HamburgueseríaBackend\\Solution1\\Clases\\Clases.csproj": {
-                "projectPath": "C:\\Users\\santi\\OneDrive\\Escritorio\\Instituto Cervantes\\2do año\\Programación Web II\\HamburgueseríaBackend\\Solution1\\Clases\\Clases.csproj"
+              "C:\\Users\\santi\\OneDrive\\Escritorio\\Hamburgueseria\\HamburgueseríaBackend\\Solution1\\Clases\\Clases.csproj": {
+                "projectPath": "C:\\Users\\santi\\OneDrive\\Escritorio\\Hamburgueseria\\HamburgueseríaBackend\\Solution1\\Clases\\Clases.csproj"
               }
             }
           }
@@ -205,14 +205,14 @@
         }
       }
     },
-    "C:\\Users\\santi\\OneDrive\\Escritorio\\Instituto Cervantes\\2do año\\Programación Web II\\HamburgueseríaBackend\\Solution1\\WebApplication1\\WebApplication1.csproj": {
+    "C:\\Users\\santi\\OneDrive\\Escritorio\\Hamburgueseria\\HamburgueseríaBackend\\Solution1\\WebApplication1\\WebApplication1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\santi\\OneDrive\\Escritorio\\Instituto Cervantes\\2do año\\Programación Web II\\HamburgueseríaBackend\\Solution1\\WebApplication1\\WebApplication1.csproj",
+        "projectUniqueName": "C:\\Users\\santi\\OneDrive\\Escritorio\\Hamburgueseria\\HamburgueseríaBackend\\Solution1\\WebApplication1\\WebApplication1.csproj",
         "projectName": "WebApplication1",
-        "projectPath": "C:\\Users\\santi\\OneDrive\\Escritorio\\Instituto Cervantes\\2do año\\Programación Web II\\HamburgueseríaBackend\\Solution1\\WebApplication1\\WebApplication1.csproj",
+        "projectPath": "C:\\Users\\santi\\OneDrive\\Escritorio\\Hamburgueseria\\HamburgueseríaBackend\\Solution1\\WebApplication1\\WebApplication1.csproj",
         "packagesPath": "C:\\Users\\santi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\santi\\OneDrive\\Escritorio\\Instituto Cervantes\\2do año\\Programación Web II\\HamburgueseríaBackend\\Solution1\\WebApplication1\\obj\\",
+        "outputPath": "C:\\Users\\santi\\OneDrive\\Escritorio\\Hamburgueseria\\HamburgueseríaBackend\\Solution1\\WebApplication1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\santi\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -229,14 +229,14 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\santi\\OneDrive\\Escritorio\\Instituto Cervantes\\2do año\\Programación Web II\\HamburgueseríaBackend\\Solution1\\BLL\\BLL.csproj": {
-                "projectPath": "C:\\Users\\santi\\OneDrive\\Escritorio\\Instituto Cervantes\\2do año\\Programación Web II\\HamburgueseríaBackend\\Solution1\\BLL\\BLL.csproj"
+              "C:\\Users\\santi\\OneDrive\\Escritorio\\Hamburgueseria\\HamburgueseríaBackend\\Solution1\\BLL\\BLL.csproj": {
+                "projectPath": "C:\\Users\\santi\\OneDrive\\Escritorio\\Hamburgueseria\\HamburgueseríaBackend\\Solution1\\BLL\\BLL.csproj"
               },
-              "C:\\Users\\santi\\OneDrive\\Escritorio\\Instituto Cervantes\\2do año\\Programación Web II\\HamburgueseríaBackend\\Solution1\\Clases\\Clases.csproj": {
-                "projectPath": "C:\\Users\\santi\\OneDrive\\Escritorio\\Instituto Cervantes\\2do año\\Programación Web II\\HamburgueseríaBackend\\Solution1\\Clases\\Clases.csproj"
+              "C:\\Users\\santi\\OneDrive\\Escritorio\\Hamburgueseria\\HamburgueseríaBackend\\Solution1\\Clases\\Clases.csproj": {
+                "projectPath": "C:\\Users\\santi\\OneDrive\\Escritorio\\Hamburgueseria\\HamburgueseríaBackend\\Solution1\\Clases\\Clases.csproj"
               },
-              "C:\\Users\\santi\\OneDrive\\Escritorio\\Instituto Cervantes\\2do año\\Programación Web II\\HamburgueseríaBackend\\Solution1\\DAO\\DAO.csproj": {
-                "projectPath": "C:\\Users\\santi\\OneDrive\\Escritorio\\Instituto Cervantes\\2do año\\Programación Web II\\HamburgueseríaBackend\\Solution1\\DAO\\DAO.csproj"
+              "C:\\Users\\santi\\OneDrive\\Escritorio\\Hamburgueseria\\HamburgueseríaBackend\\Solution1\\DAO\\DAO.csproj": {
+                "projectPath": "C:\\Users\\santi\\OneDrive\\Escritorio\\Hamburgueseria\\HamburgueseríaBackend\\Solution1\\DAO\\DAO.csproj"
               }
             }
           }

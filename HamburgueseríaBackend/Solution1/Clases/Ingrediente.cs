@@ -3,20 +3,20 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Clases
 {
-    public class Hamburguesa
+    public class Ingrediente
     {
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        public int idHamburguesa { get; private set; }
+        public int idIngrediente { get; private set; }
 
-        public string NombreHamburguesa { get; set; }
+        public string Nombre { get; set; }
         public string Descripcion { get; set; }
         public int Precio { get; set; }
 
         // Constructor
-        public Hamburguesa(string nombreHamburguesa, string descripcion, int precio)
+        public Ingrediente(string nombre, string descripcion, int precio)
         {
-            NombreHamburguesa = nombreHamburguesa;
+            Nombre = nombre;
             Descripcion = descripcion;
             Precio = precio;
         }
