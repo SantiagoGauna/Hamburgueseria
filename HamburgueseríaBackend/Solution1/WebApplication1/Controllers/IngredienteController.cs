@@ -59,6 +59,8 @@ namespace WebApplication1.Controllers
 
                 // Actualizar los campos
                 existingIngrediente.Nombre = ingrediente.Nombre;
+                existingIngrediente.Descripcion = ingrediente.Descripcion;
+                existingIngrediente.Precio = ingrediente.Precio;
                 // Actualizar otras propiedades según sea necesario
 
                 // Llamar al método de la BLL para actualizar el ingrediente

@@ -8,6 +8,7 @@ import TableContainer from "@mui/material/TableContainer";
 import TableHead from "@mui/material/TableHead";
 import TableRow from "@mui/material/TableRow";
 import Paper from "@mui/material/Paper";
+import Box from "@mui/material/Box";
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 import { tableStyles } from "./style.clientes"; 
 
@@ -41,8 +42,11 @@ const ClientesPage = () => {
 
   return (
     <ThemeProvider theme={theme}>
+      <Box>
+        <div style={{ display: 'felx', justifyContent: 'space-between', alignItems: 'center', marginBottom: '10px'}}>
+          <h2>Listado de Clientes</h2>
+          </div>
       <TableContainer component={Paper} style={tableStyles.container}>
-        Listado de Clientes
         <Table aria-label="simple table" style={tableStyles.table}>
           <TableHead>
             <TableRow>
@@ -62,6 +66,7 @@ const ClientesPage = () => {
          </TableBody>
         </Table>
       </TableContainer>
+      </Box>
     </ThemeProvider>
   );
 };

@@ -9,7 +9,7 @@ import React from "react";
 import { useNavigate } from "react-router-dom";
 import { Divider } from "@mui/material";
 
-const pages = ["hamburguesas", "pedidos", "clientes"];
+const pages = ["hamburguesas","ingredientes", "pedidos", "clientes"];
 
 // Este sera nuestro componente de toolbar personalizado
 function CustomToolbar() {

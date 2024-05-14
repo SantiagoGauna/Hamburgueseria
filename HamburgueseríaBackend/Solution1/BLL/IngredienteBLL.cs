@@ -43,6 +43,9 @@ namespace BLL
             }
 
             existingIngrediente.Nombre = ingrediente.Nombre;
+            existingIngrediente.Descripcion = ingrediente.Descripcion;
+            existingIngrediente.Precio = ingrediente.Precio;
+
             // Actualiza otras propiedades según sea necesario
 
             _hamburgueseria.SaveChanges();

@@ -7,6 +7,7 @@ import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import HamburguesasPage from "./layout/pages/hamburguesas/listar.hamburguesas";
 import PedidosPage from "./layout/pages/pedidos/listar.pedidos";
 import ClientesPage from "./layout/pages/clientes/listar.clientes";
+import IngredientesPage from "./layout/pages/ingredientes/listar.ingredientes";
 
 // Este sera nuestro componente principal, en el que se encuetra el enrutador de la aplicacion 
 export default function App() {
@@ -16,6 +17,7 @@ export default function App() {
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route path="/hamburguesas" element={<HamburguesasPage />} />
+          <Route path="/ingredientes" element={<IngredientesPage/>} />
           <Route path="/pedidos" element={<PedidosPage />} />
           <Route path="/clientes" element={<ClientesPage />} />
           {/* Si no encuentra la ruta va por defecto a /hamburguesas */}
